@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1 id="lesson-title"></h1>
+  <div id="lesson-content"></div>
+
+  <div id="quiz"></div>
+  <button onclick="submitQuiz()">Submit Quiz</button>
+  <div id="quiz-feedback"></div>
+
+  <div class="ai-box">
+    <h3>Ask AI Tutor</h3>
+    <input id="userInput" placeholder="Ask something...">
+    <button onclick="askAI()">Ask</button>
+    <p id="aiResponse"></p>
+  </div>
+
+  <div class="controls">
+    <button onclick="goToDashboard()">Go to Dashboard</button>
+    <button onclick="goHome()">Home</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
